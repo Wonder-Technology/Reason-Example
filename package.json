@@ -1,0 +1,22 @@
+{
+  "name": "reason-example",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/Wonder-Technology/Reason-Example",
+  "license": "MIT",
+  "main": "",
+  "scripts": {
+    "watch": "bsb -clean-world -make-world -w",
+    "test:watch": "jest --watch --config jest.json",
+    "build": "bsb -clean-world -make-world"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "babel-jest": "24.1.0",
+    "wonder-bs-jest": "0.2.25",
+    "bs-platform": "^4.0.18",
+    "jest": "24.1.0"
+  },
+  "dependencies": {}
+}

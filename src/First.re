@@ -1,0 +1,1 @@
+let getFirst = () => 1;
