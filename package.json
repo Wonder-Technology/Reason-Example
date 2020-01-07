@@ -6,17 +6,15 @@
   "license": "MIT",
   "main": "",
   "scripts": {
+    "start": "http-server -c-1",
     "watch": "bsb -clean-world -make-world -w",
     "test:watch": "jest --watch --config jest.json",
     "build": "bsb -clean-world -make-world"
   },
   "devDependencies": {
-    "@babel/core": "7.3.4",
-    "@babel/preset-env": "7.3.4",
-    "babel-jest": "24.1.0",
-    "wonder-bs-jest": "0.2.25",
-    "bs-platform": "^4.0.18",
-    "jest": "24.1.0"
+    "http-server": "^0.12.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bs-platform": "^5.2.0"
+  }
 }
